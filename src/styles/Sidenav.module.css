@@ -1,0 +1,20 @@
+.sider_container {
+  background-color: white !important;
+  border-right: 1px solid lightgray;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  height: 100vh;
+}
+.menu_items_container {
+  background: transparent;
+  /* height: 88vh; */
+}
+@media only screen and (max-width: 768px) {
+  .sider_container {
+    background-color: white !important;
+    border-right: 1px solid lightgray;
+    /* max-width: 250px !important; */
+    min-width: 20px !important;
+  
+  }
+}
